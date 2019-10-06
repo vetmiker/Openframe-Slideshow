@@ -50,7 +50,7 @@ module.exports = new Extension({
             debug('getNextFromCollection', duration);
 
             // get the logged-in user's primary collection
-            rest.OpenframeUser.OpenframeUser_prototype_get_created_artwork({
+            rest.OpenframeUser.OpenframeUser_prototype_get_liked_artwork({
                 id: 'current'
             }).then(function(data) {
                 console.log(data);
